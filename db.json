@@ -8,9 +8,9 @@
     },
     {
       "text": "Chumalaa",
-      "day": "Tododia",
-      "reminder": true,
-      "id": 4
+      "day": "September 3rd at 5pm",
+      "reminder": false,
+      "id": 5
     }
   ]
 }

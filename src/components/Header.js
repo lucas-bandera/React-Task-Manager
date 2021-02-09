@@ -10,17 +10,10 @@ function Header({ title, onAdd, showAdd }) {
     return (
         <header className="header">
             <h1>{title}</h1>
-            { location.pathname === "/" && <Button color={showAdd ? 'green' : 'red'} text={showAdd ? 'Add' : 'Close'} onClick={onAdd} />}
+            { location.pathname === "/" && <Button color={showAdd ? '#9519e2' : 'red'} text={showAdd ? 'Add' : 'Close'} onClick={onAdd} />}
         </header>
     )
 }
-
-// CSS in JS
-// const styles = {
-//     header: {
-//         color: '#7159c1'
-//     }
-// }
 
 Header.defaultProps = {
     title: 'Task Tracker'
